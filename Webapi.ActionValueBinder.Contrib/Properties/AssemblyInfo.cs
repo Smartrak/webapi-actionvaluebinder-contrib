@@ -37,5 +37,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyInformationalVersion(AssemblyMeta.Version)]
 internal static class AssemblyMeta
 {
-	public const string Version = "1.0.0";
+	public const string Version = "1.0.1";
 }
