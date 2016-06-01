@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<authors>Smartrak</authors>
+		<description>Helpers on webapi actionvaluebinder to allow for multiple bindings</description>
+		<projectUrl>https://github.com/Smartrak/webapi-actionvaluebinder-contrib/$id$</projectUrl>
+		<licenseUrl>https://raw.githubusercontent.com/Smartrak/webapi-actionvaluebinder-contrib/master/LICENSE</licenseUrl>
+	</metadata>
+</package>
