@@ -7,10 +7,11 @@
     <ProjectGuid>{4E53C671-92F1-4429-9789-3B99B249FC91}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Webapi.ActionValueBinder.Contrib</RootNamespace>
-    <AssemblyName>Webapi.ActionValueBinder.Contrib</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>WebApi.ActionValueBinder.Contrib</RootNamespace>
+    <AssemblyName>WebApi.ActionValueBinder.Contrib</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
