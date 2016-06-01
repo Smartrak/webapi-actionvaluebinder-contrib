@@ -3,16 +3,16 @@ using System.Linq;
 using System.Web.Http.Controllers;
 using System.Web.Http.ModelBinding;
 
-namespace Webapi.ActionValueBinder.Contrib
+namespace WebApi.ActionValueBinder.Contrib
 {
-    public class MultiActionBinder : DefaultActionValueBinder
-    {
-	    private List<IActionBinding> _bindings;
+	public class MultiActionBinder : DefaultActionValueBinder
+	{
+		private List<IActionBinding> _bindings;
 
-	    public MultiActionBinder()
-	    {
-		    _bindings = new List<IActionBinding>();
-	    } 
+		public MultiActionBinder()
+		{
+			_bindings = new List<IActionBinding>();
+		} 
 		
 		protected override HttpParameterBinding GetParameterBinding(HttpParameterDescriptor parameter)
 		{
@@ -24,8 +24,8 @@ namespace Webapi.ActionValueBinder.Contrib
 		}
 
 		public void AddBinding(IActionBinding binding)
-	    {
-		    _bindings.Add(binding);
-	    }
-    }
+		{
+			_bindings.Add(binding);
+		}
+	}
 }

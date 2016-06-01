@@ -1,6 +1,6 @@
 ﻿using System.Web.Http.Controllers;
 
-namespace Webapi.ActionValueBinder.Contrib
+namespace WebApi.ActionValueBinder.Contrib
 {
 	public interface IActionBinding
 	{

@@ -10,7 +10,7 @@ before_build:
   - nuget restore
 
 build:
-  project: Webapi.ActionValueBinder.Contrib.sln
+  project: WebApi.ActionValueBinder.Contrib.sln
   publish_nuget: true
   publish_nuget_symbols: true
   
